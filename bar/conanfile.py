@@ -5,10 +5,11 @@ from conans import ConanFile
 
 
 class FooConan(ConanFile):
-    name = "libFoo"
+    name = "libBar"
     version = "1.0"
     url = ""
     description = "A library"
     license = ""
     settings = "os", "arch", "compiler"
     generators = "cmake"
+    requires = "foo/1.0@testing/testing"

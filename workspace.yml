@@ -1,7 +1,10 @@
- editables:
+editables:
     foo/1.0@testing/testing:
         path: ./foo
         layout: foo_layout
+    bar/1.0@testing/testing:
+        path: ./bar
+        layout: bar_layout
 workspace_generator: cmake
-root: foo/1.0@testing/testing
+root: bar/1.0@testing/testing
 
